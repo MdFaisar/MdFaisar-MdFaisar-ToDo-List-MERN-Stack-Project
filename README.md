@@ -62,48 +62,38 @@ mongod --version
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/mern-todo-app.git
-cd mern-todo-app
+git clone https://github.com/MdFaisar/ToDo-List-MERN-Stack-Project.git
+cd ToDo-List-MERN-Stack-Project
 ```
 
 ### 2. Install Backend Dependencies
 ```bash
 # Navigate to backend directory
 cd backend
-npm install
+npm install 
 ```
 
 ### 3. Install Frontend Dependencies
 ```bash
 # Navigate to frontend directory
 cd ../frontend
-npm install
+npm install --save-dev concurrently
 ```
 
-### 4. Replace
-Create a `.env` file in the backend directory and add:
-```env
-PORT=5000
-MONGODB_URI=mongodb://localhost:27017/todoapp
-# For MongoDB Atlas, use your connection string:
-# MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/todoapp
-NODE_ENV=development
-```
-
-### 5. Start MongoDB
-Make sure MongoDB is running on your system:
+### 4. Start MongoDB
+Make sure MongoDB is running on your system,
+If not, go to services in the settings, search mongodb and start the service mannually
 ```bash
 # For local MongoDB installation
 mongod
 ```
-If not, go to services in the settings, search mongodb and start the service mannually
 
-### 6. Run the Application
+### 5. Run the Application
 
 #### Option 1: Run Both Concurrently
 ```bash
-cd frontend
 # From frontend directory
+cd frontend
 npm run dev
 ```
 
@@ -148,9 +138,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 👨‍💻 Author
 
 **Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile)
-- Email: your.email@example.com
+- GitHub: [@yourusername](https://github.com/MdFaisar)
+- LinkedIn: [Your LinkedIn]()
+- Email: amohammedfaisar@gmail.com
 
 ## 🙏 Acknowledgments
 
