@@ -138,8 +138,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 👨‍💻 Author
 
 **Your Name**
-- GitHub: [@yourusername](https://github.com/MdFaisar)
-- LinkedIn: [Your LinkedIn](https://www.linkedin.com/in/mohammedfaisar/)
+- GitHub: [MdFaisar](https://github.com/MdFaisar)
+- LinkedIn: [mohammedfaisar](https://www.linkedin.com/in/mohammedfaisar/)
 - Email: amohammedfaisar@gmail.com
 
 ## 🙏 Acknowledgments
